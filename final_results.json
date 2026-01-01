@@ -1,0 +1,23 @@
+{
+    "best_model": "XGBoost_Optimized",
+    "test_mae": 0.09855594992637634,
+    "test_rmse": 0.10118116840204032,
+    "test_r2": 0.9570332708791982,
+    "top_features": [
+        {
+            "Feature": "Bader_Metal_Charge_e",
+            "Importance": 0.5070369839668274
+        },
+        {
+            "Feature": "Metal_Atomic_Radius_A",
+            "Importance": 0.27448001503944397
+        },
+        {
+            "Feature": "Metal_Electronegativity",
+            "Importance": 0.1604463905096054
+        }
+    ],
+    "classification_accuracy": 1.0,
+    "best_material_prediction": -3.102849245071411,
+    "execution_time": "2026-01-01 17:24:06"
+}
